@@ -1,0 +1,49 @@
+.backgroundd{
+    width: 1255px;
+    height: 880px;
+    filter: blur(9px);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.parent{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+}
+.form{
+    position: absolute;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-left: 120px;
+  
+}
+.item{
+    background-color: rgba(10, 91, 86, 0.694);
+    border: 0px solid white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.miniImage{
+    height: 250px;
+    width: 250px;
+    margin:10px;
+   
+}
+.miniImage:hover{
+border:2px solid wheat;
+}
+.miniOut{
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  color: wheat;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 0px;
+} 

@@ -1,0 +1,104 @@
+.background{
+    width: 1268px;
+    height: 590px;
+    filter: blur(4px);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.parent{
+    position: relative;
+}
+.form{
+    position: absolute;
+}
+.box{
+    position: absolute;
+   background-color: rgba(232, 236, 239, 0.532);
+    height: 330px;
+    width: 470px;
+    margin-top: 150px;
+    margin-left: 400px;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+.box input{
+    height: 45px;
+    width: 340px;
+    background-color:#043a3865;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: rgb(206, 232, 153);
+    font-weight: 1000;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: 0px solid #043a38 ;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+@keyframes border{
+    25%{
+        border-left: 3px solid rgb(199, 190, 6);
+    }
+    50%{
+        border-top: 3px solid rgb(199, 190, 6);
+    }
+    75%{
+        border-right: 3px solid rgb(199, 190, 6);
+    }
+    100%{
+        border-bottom: 3px solid rgb(199, 190, 6);
+    }
+}
+input::placeholder{
+    font-size: 18px;
+     color: #cadc77 ;
+     font-weight: 1000;
+     font-family:'Courier New', Courier, monospace;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    color: black;
+}
+input[type=submit]{
+    background-color: #043a38ce;
+    color: wheat;
+    width: 345px;
+}
+input:focus{
+    background-color: #043a38a2;
+}
+input::marker{
+    background-color: #043a38;
+}
+.formTop{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: #043a38;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.boxImage{
+    filter: blur(1px);
+    border-radius: 20px ;
+}
+.sign{
+    text-align: center;
+    color: #043a38 ;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.sign Link{
+    color: white;
+    font-weight: 1000;  
+}
+input:focus{
+     border: none;
+    outline: none;
+}

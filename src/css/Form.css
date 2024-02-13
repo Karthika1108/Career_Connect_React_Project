@@ -1,0 +1,121 @@
+.backgroundd{
+    width: 1255px;
+    height: 2000px;
+    filter: blur(4px);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.parent{
+    position: relative;
+}
+.form{
+    position: absolute;
+}
+.custom{
+    display: none;
+}
+
+.boxx{
+    position: absolute;
+   background-color: rgba(232, 236, 239, 0.468);
+    height: 800px;
+    width: 470px;
+    margin-top: 70px;
+    margin-left: 400px;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+.boxx input,select,textarea{
+    height: 40px;
+    width: 340px;
+    background-color:#043a3865;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: rgb(231, 241, 235);
+    font-weight: 1000;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    border: 0px solid #043a38 ;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+@keyframes border{
+    25%{
+        border-left: 3px solid rgb(199, 190, 6);
+    }
+    50%{
+        border-top: 3px solid rgb(199, 190, 6);
+    }
+    75%{
+        border-right: 3px solid rgb(199, 190, 6);
+    }
+    100%{
+        border-bottom: 3px solid rgb(199, 190, 6);
+    }
+}
+input::placeholder{
+    font-size: 17px;
+     color: #d9e0e0 ;
+     font-weight: 1000;
+     font-family:'Courier New', Courier, monospace;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    color: black;
+}
+input[type=submit]{
+    background-color: #043a38ce;
+    color: wheat;
+    width: 345px;
+    margin-top: 25px;
+}
+.formTop{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: #043a38;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.boxImage{
+    filter: blur(1px);
+    border-radius: 20px ;
+}
+.sign{
+    text-align: center;
+    color: #043a38 ;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bolder;
+    
+    font-family:'Courier New', Courier, monospace;
+}
+.sign Link{
+    color: white;
+    font-weight: 1000;  
+}
+input:focus{
+     border: none;
+    outline: none;
+}
+.customLabel{
+    height: 45px;
+    background-color:#043a3865;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: rgb(231, 241, 235);
+    font-weight: 1000;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 73px;
+}

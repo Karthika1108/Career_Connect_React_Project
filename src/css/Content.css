@@ -1,0 +1,15 @@
+.form table,tr,th,td,thead,tbody{
+    color: rgb(63, 9, 9);
+    border: 2px solid rgba(236, 219, 35, 0.596);
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 300px;
+    height: 40px;
+    background-color: rgba(161, 198, 181, 0.292);
+    text-align: center;
+}
+td Link{
+    text-decoration: none;
+    color: black;
+}
+

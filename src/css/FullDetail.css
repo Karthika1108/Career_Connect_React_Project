@@ -1,0 +1,61 @@
+.back{
+    width: 1255px;
+    height: 1400px;
+    filter: blur(4px);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.parentt{
+    position: relative;
+}
+.formm{
+    position: absolute;
+}
+.contain{
+    display: flex;
+    background-color: rgba(31, 143, 98, 0.432);
+    height: 100%;
+    width: 400px;
+    flex-wrap: wrap;
+    color: rgb(232, 233, 214);
+    font-size: 15px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 10px ridge rgba(12, 82, 62, 0.705);
+    padding: 14px 15px 14px 15px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: 1000;
+}
+.head{
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 2px;
+   line-height: 30px;
+}
+.tab{
+    color: white;
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 2px;
+   line-height: 30px;
+}
+table,tr,th,td,thead,tbody{
+    color: rgb(63, 9, 9);
+    border: 2px solid rgba(236, 219, 35, 0.596);
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 0px;
+    height: 40px;
+    background-color: rgba(161, 198, 181, 0.292);
+    text-align: center;
+}
